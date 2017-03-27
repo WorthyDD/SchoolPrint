@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC18E9BC1E888BE100C01B18 /* PrintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC18E9BA1E888BE100C01B18 /* PrintViewController.m */; };
+		CC556EA81E87F3E6007D5115 /* GraduatePaperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC556EA61E87F3E6007D5115 /* GraduatePaperViewController.m */; };
+		CC78B8A31E86062400F580C4 /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78B8A11E86062400F580C4 /* RegistViewController.m */; };
+		CC78B8A41E86062400F580C4 /* RegistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC78B8A21E86062400F580C4 /* RegistViewController.xib */; };
+		CC78B8A71E860BFC00F580C4 /* NSString+Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78B8A61E860BFC00F580C4 /* NSString+Phone.m */; };
+		CC84ED511E8565330044B4DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC84ED501E8565330044B4DF /* main.m */; };
+		CC84ED541E8565330044B4DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC84ED531E8565330044B4DF /* AppDelegate.m */; };
+		CC84ED5D1E8565330044B4DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC84ED5B1E8565330044B4DF /* Main.storyboard */; };
+		CC84ED621E8565330044B4DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC84ED601E8565330044B4DF /* LaunchScreen.storyboard */; };
+		CC84ED6D1E8566EA0044B4DF /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC84ED6B1E8566EA0044B4DF /* LoginViewController.m */; };
+		CC84ED6E1E8566EA0044B4DF /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC84ED6C1E8566EA0044B4DF /* LoginViewController.xib */; };
+		CC84ED791E8567610044B4DF /* UIColor+TAToolkit.m in Sources */ = {isa = PBXBuildFile; fileRef = CC84ED721E8567610044B4DF /* UIColor+TAToolkit.m */; };
+		CC84ED7A1E8567610044B4DF /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CC84ED741E8567610044B4DF /* UIView+AutoLayout.m */; };
+		CC84ED7B1E8567610044B4DF /* UIView+Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = CC84ED761E8567610044B4DF /* UIView+Geometry.m */; };
+		CC84ED7C1E8567610044B4DF /* UIView+IBInspect.m in Sources */ = {isa = PBXBuildFile; fileRef = CC84ED781E8567610044B4DF /* UIView+IBInspect.m */; };
+		CC84ED801E8568310044B4DF /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = CC84ED7F1E8568310044B4DF /* UIView+Toast.m */; };
+		CC84ED841E856DF50044B4DF /* AccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC84ED831E856DF50044B4DF /* AccountManager.m */; };
+		CC84ED881E856E3B0044B4DF /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = CC84ED871E856E3B0044B4DF /* User.m */; };
+		CC84ED8C1E8575480044B4DF /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC84ED8B1E8575480044B4DF /* MainPageViewController.m */; };
+		CC84ED8F1E8576960044B4DF /* BasePresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC84ED8E1E8576960044B4DF /* BasePresentViewController.m */; };
+		CCE598391E87664500D6CED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCE598381E87664500D6CED5 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC18E9B91E888BE100C01B18 /* PrintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintViewController.h; sourceTree = "<group>"; };
+		CC18E9BA1E888BE100C01B18 /* PrintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintViewController.m; sourceTree = "<group>"; };
+		CC556EA51E87F3E6007D5115 /* GraduatePaperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraduatePaperViewController.h; sourceTree = "<group>"; };
+		CC556EA61E87F3E6007D5115 /* GraduatePaperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraduatePaperViewController.m; sourceTree = "<group>"; };
+		CC78B8A01E86062400F580C4 /* RegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
+		CC78B8A11E86062400F580C4 /* RegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
+		CC78B8A21E86062400F580C4 /* RegistViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistViewController.xib; sourceTree = "<group>"; };
+		CC78B8A51E860BFC00F580C4 /* NSString+Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Phone.h"; sourceTree = "<group>"; };
+		CC78B8A61E860BFC00F580C4 /* NSString+Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Phone.m"; sourceTree = "<group>"; };
+		CC78B8A81E86303300F580C4 /* define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
+		CC84ED4C1E8565330044B4DF /* 校园云打印.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "校园云打印.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC84ED501E8565330044B4DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC84ED521E8565330044B4DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC84ED531E8565330044B4DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC84ED5C1E8565330044B4DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC84ED611E8565330044B4DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC84ED631E8565330044B4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC84ED6A1E8566EA0044B4DF /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CC84ED6B1E8566EA0044B4DF /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CC84ED6C1E8566EA0044B4DF /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		CC84ED711E8567610044B4DF /* UIColor+TAToolkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TAToolkit.h"; sourceTree = "<group>"; };
+		CC84ED721E8567610044B4DF /* UIColor+TAToolkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TAToolkit.m"; sourceTree = "<group>"; };
+		CC84ED731E8567610044B4DF /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		CC84ED741E8567610044B4DF /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		CC84ED751E8567610044B4DF /* UIView+Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Geometry.h"; sourceTree = "<group>"; };
+		CC84ED761E8567610044B4DF /* UIView+Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Geometry.m"; sourceTree = "<group>"; };
+		CC84ED771E8567610044B4DF /* UIView+IBInspect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+IBInspect.h"; sourceTree = "<group>"; };
+		CC84ED781E8567610044B4DF /* UIView+IBInspect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+IBInspect.m"; sourceTree = "<group>"; };
+		CC84ED7D1E8567770044B4DF /* Toolkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Toolkit.h; sourceTree = "<group>"; };
+		CC84ED7E1E8568310044B4DF /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		CC84ED7F1E8568310044B4DF /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		CC84ED811E8568AB0044B4DF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CC84ED821E856DF50044B4DF /* AccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountManager.h; sourceTree = "<group>"; };
+		CC84ED831E856DF50044B4DF /* AccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountManager.m; sourceTree = "<group>"; };
+		CC84ED861E856E3B0044B4DF /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		CC84ED871E856E3B0044B4DF /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		CC84ED8A1E8575480044B4DF /* MainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPageViewController.h; sourceTree = "<group>"; };
+		CC84ED8B1E8575480044B4DF /* MainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageViewController.m; sourceTree = "<group>"; };
+		CC84ED8D1E8576960044B4DF /* BasePresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePresentViewController.h; sourceTree = "<group>"; };
+		CC84ED8E1E8576960044B4DF /* BasePresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePresentViewController.m; sourceTree = "<group>"; };
+		CCE598381E87664500D6CED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC84ED491E8565330044B4DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC18E9BE1E888BEC00C01B18 /* Print */ = {
+			isa = PBXGroup;
+			children = (
+				CC18E9B91E888BE100C01B18 /* PrintViewController.h */,
+				CC18E9BA1E888BE100C01B18 /* PrintViewController.m */,
+			);
+			name = Print;
+			sourceTree = "<group>";
+		};
+		CC84ED431E8565330044B4DF = {
+			isa = PBXGroup;
+			children = (
+				CC84ED4E1E8565330044B4DF /* 校园云打印 */,
+				CC84ED4D1E8565330044B4DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC84ED4D1E8565330044B4DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC84ED4C1E8565330044B4DF /* 校园云打印.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC84ED4E1E8565330044B4DF /* 校园云打印 */ = {
+			isa = PBXGroup;
+			children = (
+				CC84ED691E8566450044B4DF /* Class */,
+				CC84ED4F1E8565330044B4DF /* Supporting Files */,
+			);
+			path = "校园云打印";
+			sourceTree = "<group>";
+		};
+		CC84ED4F1E8565330044B4DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCE598381E87664500D6CED5 /* Assets.xcassets */,
+				CC84ED5B1E8565330044B4DF /* Main.storyboard */,
+				CC84ED601E8565330044B4DF /* LaunchScreen.storyboard */,
+				CC84ED631E8565330044B4DF /* Info.plist */,
+				CC84ED521E8565330044B4DF /* AppDelegate.h */,
+				CC84ED531E8565330044B4DF /* AppDelegate.m */,
+				CC84ED501E8565330044B4DF /* main.m */,
+				CC84ED811E8568AB0044B4DF /* PrefixHeader.pch */,
+				CC78B8A81E86303300F580C4 /* define.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC84ED691E8566450044B4DF /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				CC84ED701E8566FF0044B4DF /* Tools */,
+				CC84ED851E856E1C0044B4DF /* Account */,
+				CC84ED6F1E8566EE0044B4DF /* Login */,
+				CC84ED891E85751E0044B4DF /* MainPage */,
+				CC18E9BE1E888BEC00C01B18 /* Print */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		CC84ED6F1E8566EE0044B4DF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CC84ED8D1E8576960044B4DF /* BasePresentViewController.h */,
+				CC84ED8E1E8576960044B4DF /* BasePresentViewController.m */,
+				CC84ED6A1E8566EA0044B4DF /* LoginViewController.h */,
+				CC84ED6B1E8566EA0044B4DF /* LoginViewController.m */,
+				CC84ED6C1E8566EA0044B4DF /* LoginViewController.xib */,
+				CC78B8A01E86062400F580C4 /* RegistViewController.h */,
+				CC78B8A11E86062400F580C4 /* RegistViewController.m */,
+				CC78B8A21E86062400F580C4 /* RegistViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		CC84ED701E8566FF0044B4DF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CC78B8A51E860BFC00F580C4 /* NSString+Phone.h */,
+				CC78B8A61E860BFC00F580C4 /* NSString+Phone.m */,
+				CC84ED7E1E8568310044B4DF /* UIView+Toast.h */,
+				CC84ED7F1E8568310044B4DF /* UIView+Toast.m */,
+				CC84ED711E8567610044B4DF /* UIColor+TAToolkit.h */,
+				CC84ED721E8567610044B4DF /* UIColor+TAToolkit.m */,
+				CC84ED731E8567610044B4DF /* UIView+AutoLayout.h */,
+				CC84ED741E8567610044B4DF /* UIView+AutoLayout.m */,
+				CC84ED751E8567610044B4DF /* UIView+Geometry.h */,
+				CC84ED761E8567610044B4DF /* UIView+Geometry.m */,
+				CC84ED771E8567610044B4DF /* UIView+IBInspect.h */,
+				CC84ED781E8567610044B4DF /* UIView+IBInspect.m */,
+				CC84ED7D1E8567770044B4DF /* Toolkit.h */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		CC84ED851E856E1C0044B4DF /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				CC84ED821E856DF50044B4DF /* AccountManager.h */,
+				CC84ED831E856DF50044B4DF /* AccountManager.m */,
+				CC84ED861E856E3B0044B4DF /* User.h */,
+				CC84ED871E856E3B0044B4DF /* User.m */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		CC84ED891E85751E0044B4DF /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				CC84ED8A1E8575480044B4DF /* MainPageViewController.h */,
+				CC84ED8B1E8575480044B4DF /* MainPageViewController.m */,
+				CC556EA51E87F3E6007D5115 /* GraduatePaperViewController.h */,
+				CC556EA61E87F3E6007D5115 /* GraduatePaperViewController.m */,
+			);
+			name = MainPage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC84ED4B1E8565330044B4DF /* 校园云打印 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC84ED661E8565330044B4DF /* Build configuration list for PBXNativeTarget "校园云打印" */;
+			buildPhases = (
+				CC84ED481E8565330044B4DF /* Sources */,
+				CC84ED491E8565330044B4DF /* Frameworks */,
+				CC84ED4A1E8565330044B4DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "校园云打印";
+			productName = "校园云打印";
+			productReference = CC84ED4C1E8565330044B4DF /* 校园云打印.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC84ED441E8565330044B4DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "武淅 段";
+				TargetAttributes = {
+					CC84ED4B1E8565330044B4DF = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CC84ED471E8565330044B4DF /* Build configuration list for PBXProject "校园云打印" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC84ED431E8565330044B4DF;
+			productRefGroup = CC84ED4D1E8565330044B4DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC84ED4B1E8565330044B4DF /* 校园云打印 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC84ED4A1E8565330044B4DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC84ED6E1E8566EA0044B4DF /* LoginViewController.xib in Resources */,
+				CC84ED621E8565330044B4DF /* LaunchScreen.storyboard in Resources */,
+				CC78B8A41E86062400F580C4 /* RegistViewController.xib in Resources */,
+				CC84ED5D1E8565330044B4DF /* Main.storyboard in Resources */,
+				CCE598391E87664500D6CED5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC84ED481E8565330044B4DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC78B8A31E86062400F580C4 /* RegistViewController.m in Sources */,
+				CC84ED881E856E3B0044B4DF /* User.m in Sources */,
+				CC84ED8F1E8576960044B4DF /* BasePresentViewController.m in Sources */,
+				CC84ED801E8568310044B4DF /* UIView+Toast.m in Sources */,
+				CC84ED8C1E8575480044B4DF /* MainPageViewController.m in Sources */,
+				CC84ED7A1E8567610044B4DF /* UIView+AutoLayout.m in Sources */,
+				CC84ED541E8565330044B4DF /* AppDelegate.m in Sources */,
+				CC84ED791E8567610044B4DF /* UIColor+TAToolkit.m in Sources */,
+				CC84ED511E8565330044B4DF /* main.m in Sources */,
+				CC84ED7C1E8567610044B4DF /* UIView+IBInspect.m in Sources */,
+				CC78B8A71E860BFC00F580C4 /* NSString+Phone.m in Sources */,
+				CC84ED7B1E8567610044B4DF /* UIView+Geometry.m in Sources */,
+				CC18E9BC1E888BE100C01B18 /* PrintViewController.m in Sources */,
+				CC84ED6D1E8566EA0044B4DF /* LoginViewController.m in Sources */,
+				CC556EA81E87F3E6007D5115 /* GraduatePaperViewController.m in Sources */,
+				CC84ED841E856DF50044B4DF /* AccountManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC84ED5B1E8565330044B4DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC84ED5C1E8565330044B4DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC84ED601E8565330044B4DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC84ED611E8565330044B4DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC84ED641E8565330044B4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC84ED651E8565330044B4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC84ED671E8565330044B4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/校园云打印/PrefixHeader.pch";
+				INFOPLIST_FILE = "校园云打印/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wuxi.schoolPrint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC84ED681E8565330044B4DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/校园云打印/PrefixHeader.pch";
+				INFOPLIST_FILE = "校园云打印/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wuxi.schoolPrint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC84ED471E8565330044B4DF /* Build configuration list for PBXProject "校园云打印" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC84ED641E8565330044B4DF /* Debug */,
+				CC84ED651E8565330044B4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC84ED661E8565330044B4DF /* Build configuration list for PBXNativeTarget "校园云打印" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC84ED671E8565330044B4DF /* Debug */,
+				CC84ED681E8565330044B4DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC84ED441E8565330044B4DF /* Project object */;
+}
