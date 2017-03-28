@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC0D81711E8A9AC500694975 /* MeCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0D816F1E8A9AC500694975 /* MeCenterViewController.m */; };
+		CC0D81751E8AA41F00694975 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0D81741E8AA41F00694975 /* MBProgressHUD.m */; };
+		CC0D81781E8AA46F00694975 /* MBProgressHUD+Add.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0D81771E8AA46F00694975 /* MBProgressHUD+Add.m */; };
+		CC0D817C1E8AA6DA00694975 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0D817B1E8AA6DA00694975 /* SettingViewController.m */; };
 		CC18E9BC1E888BE100C01B18 /* PrintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC18E9BA1E888BE100C01B18 /* PrintViewController.m */; };
 		CC556EA81E87F3E6007D5115 /* GraduatePaperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC556EA61E87F3E6007D5115 /* GraduatePaperViewController.m */; };
 		CC78B8A31E86062400F580C4 /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78B8A11E86062400F580C4 /* RegistViewController.m */; };
@@ -27,10 +31,20 @@
 		CC84ED881E856E3B0044B4DF /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = CC84ED871E856E3B0044B4DF /* User.m */; };
 		CC84ED8C1E8575480044B4DF /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC84ED8B1E8575480044B4DF /* MainPageViewController.m */; };
 		CC84ED8F1E8576960044B4DF /* BasePresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC84ED8E1E8576960044B4DF /* BasePresentViewController.m */; };
+		CCBAE13B1E89583F00928A19 /* PaperDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCBAE1391E89583F00928A19 /* PaperDetailViewController.m */; };
+		CCBAE13C1E89583F00928A19 /* PaperDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCBAE13A1E89583F00928A19 /* PaperDetailViewController.xib */; };
 		CCE598391E87664500D6CED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCE598381E87664500D6CED5 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC0D816E1E8A9AC500694975 /* MeCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeCenterViewController.h; sourceTree = "<group>"; };
+		CC0D816F1E8A9AC500694975 /* MeCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeCenterViewController.m; sourceTree = "<group>"; };
+		CC0D81731E8AA41F00694975 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CC0D81741E8AA41F00694975 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CC0D81761E8AA46F00694975 /* MBProgressHUD+Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Add.h"; sourceTree = "<group>"; };
+		CC0D81771E8AA46F00694975 /* MBProgressHUD+Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Add.m"; sourceTree = "<group>"; };
+		CC0D817A1E8AA6DA00694975 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		CC0D817B1E8AA6DA00694975 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		CC18E9B91E888BE100C01B18 /* PrintViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintViewController.h; sourceTree = "<group>"; };
 		CC18E9BA1E888BE100C01B18 /* PrintViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintViewController.m; sourceTree = "<group>"; };
 		CC556EA51E87F3E6007D5115 /* GraduatePaperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraduatePaperViewController.h; sourceTree = "<group>"; };
@@ -71,6 +85,9 @@
 		CC84ED8B1E8575480044B4DF /* MainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageViewController.m; sourceTree = "<group>"; };
 		CC84ED8D1E8576960044B4DF /* BasePresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePresentViewController.h; sourceTree = "<group>"; };
 		CC84ED8E1E8576960044B4DF /* BasePresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePresentViewController.m; sourceTree = "<group>"; };
+		CCBAE1381E89583F00928A19 /* PaperDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperDetailViewController.h; sourceTree = "<group>"; };
+		CCBAE1391E89583F00928A19 /* PaperDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperDetailViewController.m; sourceTree = "<group>"; };
+		CCBAE13A1E89583F00928A19 /* PaperDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaperDetailViewController.xib; sourceTree = "<group>"; };
 		CCE598381E87664500D6CED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,11 +102,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC0D816D1E8A9AA000694975 /* MeCenter */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D816E1E8A9AC500694975 /* MeCenterViewController.h */,
+				CC0D816F1E8A9AC500694975 /* MeCenterViewController.m */,
+			);
+			name = MeCenter;
+			sourceTree = "<group>";
+		};
+		CC0D81791E8AA6C400694975 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D817A1E8AA6DA00694975 /* SettingViewController.h */,
+				CC0D817B1E8AA6DA00694975 /* SettingViewController.m */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
 		CC18E9BE1E888BEC00C01B18 /* Print */ = {
 			isa = PBXGroup;
 			children = (
 				CC18E9B91E888BE100C01B18 /* PrintViewController.h */,
 				CC18E9BA1E888BE100C01B18 /* PrintViewController.m */,
+				CCBAE1381E89583F00928A19 /* PaperDetailViewController.h */,
+				CCBAE1391E89583F00928A19 /* PaperDetailViewController.m */,
+				CCBAE13A1E89583F00928A19 /* PaperDetailViewController.xib */,
 			);
 			name = Print;
 			sourceTree = "<group>";
@@ -143,6 +181,8 @@
 				CC84ED6F1E8566EE0044B4DF /* Login */,
 				CC84ED891E85751E0044B4DF /* MainPage */,
 				CC18E9BE1E888BEC00C01B18 /* Print */,
+				CC0D816D1E8A9AA000694975 /* MeCenter */,
+				CC0D81791E8AA6C400694975 /* More */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -165,6 +205,10 @@
 		CC84ED701E8566FF0044B4DF /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				CC0D81731E8AA41F00694975 /* MBProgressHUD.h */,
+				CC0D81741E8AA41F00694975 /* MBProgressHUD.m */,
+				CC0D81761E8AA46F00694975 /* MBProgressHUD+Add.h */,
+				CC0D81771E8AA46F00694975 /* MBProgressHUD+Add.m */,
 				CC78B8A51E860BFC00F580C4 /* NSString+Phone.h */,
 				CC78B8A61E860BFC00F580C4 /* NSString+Phone.m */,
 				CC84ED7E1E8568310044B4DF /* UIView+Toast.h */,
@@ -264,6 +308,7 @@
 			files = (
 				CC84ED6E1E8566EA0044B4DF /* LoginViewController.xib in Resources */,
 				CC84ED621E8565330044B4DF /* LaunchScreen.storyboard in Resources */,
+				CCBAE13C1E89583F00928A19 /* PaperDetailViewController.xib in Resources */,
 				CC78B8A41E86062400F580C4 /* RegistViewController.xib in Resources */,
 				CC84ED5D1E8565330044B4DF /* Main.storyboard in Resources */,
 				CCE598391E87664500D6CED5 /* Assets.xcassets in Resources */,
@@ -282,7 +327,10 @@
 				CC84ED8F1E8576960044B4DF /* BasePresentViewController.m in Sources */,
 				CC84ED801E8568310044B4DF /* UIView+Toast.m in Sources */,
 				CC84ED8C1E8575480044B4DF /* MainPageViewController.m in Sources */,
+				CC0D81711E8A9AC500694975 /* MeCenterViewController.m in Sources */,
 				CC84ED7A1E8567610044B4DF /* UIView+AutoLayout.m in Sources */,
+				CC0D81781E8AA46F00694975 /* MBProgressHUD+Add.m in Sources */,
+				CC0D81751E8AA41F00694975 /* MBProgressHUD.m in Sources */,
 				CC84ED541E8565330044B4DF /* AppDelegate.m in Sources */,
 				CC84ED791E8567610044B4DF /* UIColor+TAToolkit.m in Sources */,
 				CC84ED511E8565330044B4DF /* main.m in Sources */,
@@ -291,8 +339,10 @@
 				CC84ED7B1E8567610044B4DF /* UIView+Geometry.m in Sources */,
 				CC18E9BC1E888BE100C01B18 /* PrintViewController.m in Sources */,
 				CC84ED6D1E8566EA0044B4DF /* LoginViewController.m in Sources */,
+				CC0D817C1E8AA6DA00694975 /* SettingViewController.m in Sources */,
 				CC556EA81E87F3E6007D5115 /* GraduatePaperViewController.m in Sources */,
 				CC84ED841E856DF50044B4DF /* AccountManager.m in Sources */,
+				CCBAE13B1E89583F00928A19 /* PaperDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

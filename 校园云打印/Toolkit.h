@@ -14,6 +14,7 @@
 #import "UIView+AutoLayout.h"
 #import "UIView+IBInspect.h"
 #import "UIView+Toast.h"
+#import "MBProgressHUD+Add.h"
 #import "NSString+Phone.h"
 
 #endif /* Toolikit_h */
